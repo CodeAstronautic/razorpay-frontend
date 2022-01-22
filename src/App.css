@@ -435,10 +435,6 @@ b {
       width: 100%;
       height: inherit;
   }
-  /* body{
-    height: fit-content;
-    
-  } */
 }
 @media (max-width:580px) {
   #desktop-container .content::before {
