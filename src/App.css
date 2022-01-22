@@ -1,0 +1,447 @@
+#paymentpage-container {
+  position: relative;
+  font-family: "Muli", "Lato", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#desktop-container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+#desktop-container .content-container {
+  min-width: 760px;
+  display: table;
+}
+.content-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#desktop-container .content {
+  width: calc(50% + 480px);
+  position: relative;
+  display: table;
+  height: 100%;
+  min-height: 100vh;
+  max-width: 1000px;
+  padding-left: 36px;
+  padding-bottom: 48px;
+  margin: 0 auto;
+}
+
+#paymentpage-container #desktop-container .content-container .content::before {
+  border-color: rgb(35,113,236);
+}
+
+#desktop-container .content::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: calc(100% + (100vw - 100%) / 2 - 180px - 16px);
+  left: calc(-50vw + 50%);
+  border-left: 16px solid;
+  border-color: #528ff0;
+  background: #fcfcfc;
+  z-index: -1;
+}
+#desktop-container #header-details {
+  padding: 24px 0;
+  color: #0d2366;
+  margin: 20px 0;
+  display: table;
+  min-height: 112px;
+}
+#desktop-container #details-view, #desktop-container #header-details {
+  width: 42%;
+}
+#header-details {
+  position: relative;
+}
+#desktop-container #header-details > div {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 18px;
+}
+
+#header-details #header-logo {
+  text-align: center;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 18%);
+  background: #fff;
+  padding: 8px;
+  display: inline-block;
+}
+#header-details #header-logo img {
+  width: 100%;
+  display: block;
+}
+img {
+  font-size: 12px;
+  color: #515978;
+  line-height: 20px;
+}
+#paymentpage-container #desktop-container #header-details #merchant-name, #paymentpage-container #desktop-container #main-view .title, #paymentpage-container #details-section #description-details .title, #paymentpage-container #details-section label, #paymentpage-container #details-section .Input .Input-el, #paymentpage-container #details-section .title--big .Input-el, #paymentpage-container #support-details .sub-detail .Input-el, #paymentpage-container #details-view #support-details a div, #paymentpage-container .ql-editor h2, #paymentpage-container .ql-editor h3, #paymentpage-container .ql-editor p {
+  color: #0d2366;
+}
+#desktop-container #header-details #merchant-name {
+  font-weight: bold;
+  line-height: 28px;
+  max-width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#desktop-container #header-details > div:nth-of-type(n+2) {
+  padding-left: 16px;
+}
+#desktop-container #header-details > div {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 18px;
+}
+html * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+div {
+  display: block;
+}
+#desktop-container #header-details {
+  padding: 24px 0;
+  color: #0d2366;
+  margin: 20px 0;
+  display: table;
+  min-height: 112px;
+}
+#paymentpage-container {
+  position: relative;
+  font-family: "Muli", "Lato", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  color: #515978;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  font-family: Lato, Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  overflow: auto;
+}
+#desktop-container #main-view {
+  padding: 30px 32px;
+  width: 480px;
+  float: right;
+  top: -22px;
+}
+
+#main-view {
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 6px 11px 24px 0 rgb(23 31 37 / 12%);
+  background: #fff;
+}
+.slider-view {
+  background: #fff;
+  position: relative;
+  transition: 0.2s;
+}
+html * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+div {
+  display: block;
+}
+.title {
+  position: relative;
+  color: #0d2366;
+  overflow-wrap: break-word;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+  color: #528ff0;
+  display: inline-block;
+}
+
+html * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#paymentpage-container .title-underline {
+  border-color: rgb(35,113,236);
+}
+
+.title-underline {
+  display: block;
+  width: 28px;
+  border-bottom: 5px solid;
+  margin-top: 20px;
+  border-color: #528ff0;
+}
+
+#desktop-container #form-section {
+  height: 100%;
+}
+.title + #form-section {
+  margin-top: 36px;
+}
+#form-section {
+  position: relative;
+}
+.UI-form.UI-form {
+  position: relative;
+  color: #515978;
+}
+html * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.UI-form.UI-form .Field {
+  position: relative;
+  display: block;
+  margin: 24px 0 -21px;
+  transition: 0.12s;
+}
+
+
+.UI-form.UI-form .Field-label {
+    position: relative;
+    float: left;
+    width: 140px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515978;
+    word-break: break-word;
+}
+.UI-form.UI-form .Field-label .text-optional {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.UI-form.UI-form .Field-content {
+  margin-left: 164px;
+}
+.UI-form.UI-form .Field-wrapper {
+  position: relative;
+  height: 36px;
+  min-width: 160px;
+  max-width: 360px;
+  color: #0d2366;
+}
+.UI-form.UI-form .Field-addon--before {
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.UI-form.UI-form .Field-addon {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+}
+.UI-form.UI-form .Field-addon > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.UI-form.UI-form .Field-addon > span> * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.UI-form.UI-form .currency-symbol {
+  margin-top: 2px;
+}
+b {
+  font-weight: bold;
+}
+html * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+b {
+  font-weight: bold;
+}
+.UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+  padding-left: 20px;
+}
+
+.UI-form.UI-form .Field--amount div.Field-el, .UI-form.UI-form .Field--amount input.Field-el {
+  background: #fcfcfc;
+  border: 1px solid #e3e9eb;
+}
+.UI-form.UI-form .Field-el {
+  line-height: 16px;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0 9px;
+  outline: none;
+  color: inherit;
+}
+.UI-form.UI-form .Field-addon--after {
+  right: 9px;
+}
+.UI-form.UI-form .Field-addon {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+}
+.UI-form.UI-form .Field-addon > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+  font-size: 12px;
+  margin: 4px 0;
+  line-height: 16px;
+}
+.UI-form.UI-form .Field-error {
+  color: #f05050;
+  opacity: 0;
+  transition: 0.12s;
+  min-height: 20px;
+}
+.UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+  font-size: 12px;
+  margin: 4px 0;
+  line-height: 16px;
+}
+.UI-form.UI-form .Field-description {
+  transform: translateY(-21px);
+  transition: 0.12s;
+  overflow-wrap: break-word;
+}
+.UI-form.UI-form .Field::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.UI-form.UI-form .Field {
+  position: relative;
+  display: block;
+  margin: 24px 0 -21px;
+  transition: 0.12s;
+}
+.UI-form.UI-form .Field-label {
+  position: relative;
+  float: left;
+  width: 140px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #515978;
+  word-break: break-word;
+}
+.UI-form.UI-form .Field-content {
+  margin-left: 164px;
+}
+.UI-form.UI-form .Field-wrapper {
+  position: relative;
+  height: 36px;
+  min-width: 160px;
+  max-width: 360px;
+  color: #0d2366;
+}
+.UI-form.UI-form .Field-addon {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+}
+.UI-form.UI-form .Field-el {
+  line-height: 16px;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0 9px;
+  outline: none;
+  color: inherit;
+}
+.UI-form.UI-form .Field-addon {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+}
+.UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+  font-size: 12px;
+  margin: 4px 0;
+  line-height: 16px;
+}
+.UI-form.UI-form .Field-error {
+  color: #f05050;
+  opacity: 0;
+  transition: 0.12s;
+  min-height: 20px;
+}
+.UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+  font-size: 12px;
+  margin: 4px 0;
+  line-height: 16px;
+}
+.UI-form.UI-form .Field::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.UI-form.UI-form .Field {
+  position: relative;
+  display: block;
+  margin: 24px 0 -21px;
+  transition: 0.12s;
+}
+@media (max-width:960px){
+  #desktop-container .content::before {
+    left:0;
+  }
+  #desktop-container .content{
+    width: 100%;
+  }
+}
+@media (max-width:750px){
+  #details-view{
+    bottom: 0;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  #desktop-container #header-details{
+    margin-left: 5rem;
+  }
+  #desktop-container #main-view {
+    left:0;
+    float: none;
+    margin: auto;
+  }
+  #desktop-container .content::before {
+      width: 100%;
+      height: inherit;
+  }
+  /* body{
+    height: fit-content;
+    
+  } */
+}
+@media (max-width:580px) {
+  #desktop-container .content::before {
+    visibility: 0;
+  }
+}
